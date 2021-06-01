@@ -12,6 +12,44 @@
 <html lang="ja">
   <head>
     <link rel="stylesheet" href="css/purchase_input.css" />
+    <style>
+    @charset "UTF-8";
+
+
+h1 {
+  margin-bottom: 35px;
+}
+
+.container {
+  display: flex;
+}
+
+main {
+  margin-left: 31px;
+  width: 986px;
+  padding: 15px;
+  background: #f4f4f4;
+  border-radius: 2px;
+}
+.buy-button {
+  /* background-color: rgb(117, 163, 91); */
+  display: block;
+  width: 370px;
+  height: 50px;
+  margin: 16px auto 7px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: darkgreen;
+  opacity: 0.8;
+  border-radius: 2%;
+}
+.buy-button:hover {
+  background-color: darkgreen;
+  opacity: 1;
+}
+    </style>
     <title>野菜を採るなら大原♪｜トップ</title>
   </head>
   <body>

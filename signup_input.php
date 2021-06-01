@@ -6,6 +6,27 @@
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />  <!--リセットCSS-->
     <link rel="stylesheet" href="css/login.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"><!-- フォントオーサム -->
+    <style>
+        @charset "UTF-8";
+
+
+h1 {
+  margin-bottom: 35px;
+}
+
+.container {
+  display: flex;
+}
+
+main {
+  margin-left: 31px;
+  width: 986px;
+}
+
+.shipping-fee-img{
+  width: 100%;
+}
+    </style>
     <title>野菜を採るなら大原♪｜新規登録</title>
   </head>
   <body>
