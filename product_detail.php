@@ -371,21 +371,21 @@ margin-top: 12px;
 
           <div class="slider-for" style="margin-bottom: 10px;">
             <figure><img src="images/<?= $row['image_name'] ?>" /></figure>
-            <figure><img src="images/retasu.jpg" /></figure>
-            <figure><img src="images/onion.jpg" /></figure>
-            <figure><img src="images/imo.jpg" /></figure>
-            <figure><img src="images/papurika.jpg" /></figure>
-            <figure><img src="images/ninhin.jpg" /></figure>
-            <figure><img src="images/nasu.jpg" /></figure>
+            <figure><img src="images/<?= $row['ga1'] ?>" /></figure>
+            <figure><img src="images/<?= $row['ga2'] ?>" /></figure>
+            <figure><img src="images/<?= $row['ga3'] ?>" /></figure>
+            <figure><img src="images/<?= $row['ga4'] ?>" /></figure>
+            <figure><img src="images/<?= $row['ga5'] ?>" /></figure>
+            <figure><img src="images/<?= $row['ga6'] ?>" /></figure>
           </div>
           <div class="slider-nav">
             <figure><img src="images/<?= $row['image_name'] ?>" /></figure>
-            <figure><img src="images/retasu.jpg" /></figure>
-            <figure><img src="images/onion.jpg" /></figure>
-            <figure><img src="images/imo.jpg" /></figure>
-            <figure><img src="images/papurika.jpg" /></figure>
-            <figure><img src="images/ninhin.jpg" /></figure>
-            <figure><img src="images/nasu.jpg" /></figure>
+            <figure><img src="images/<?= $row['ga1'] ?>" /></figure>
+            <figure><img src="images/<?= $row['ga2'] ?>" /></figure>
+            <figure><img src="images/<?= $row['ga3'] ?>" /></figure>
+            <figure><img src="images/<?= $row['ga4'] ?>" /></figure>
+            <figure><img src="images/<?= $row['ga5'] ?>" /></figure>
+            <figure><img src="images/<?= $row['ga6'] ?>" /></figure>
           </div>
         </div>
 
