@@ -1,6 +1,60 @@
 <?php if(!isset($_SESSION)){ session_start(); }; ?><!-- sessionが開始されていなければ開始する -->
+<!-- ヘッダー -->
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />  <!--リセットCSS-->
+  <link rel="stylesheet" href="css/commonSytle.css">
+  <link rel="stylesheet" href="css/header.css" />
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"><!-- フォントオーサム -->
+
 <style>
+
+  
 @charset "UTF-8";
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  color: #383838;
+  font-size: 94%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: rgb(163, 131, 75);
+
+}
+
+p {
+  line-height: 1.75;
+  max-width: 48rem;
+}
+
+ul {
+  list-style: none;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin: 26px auto 0;
+  padding: 0 13px;
+}
+
+.price-unit {
+  font-size: 0.88em;
+}
+.attention{
+  font-size: 0.68em;
+}
 
 
 header {
