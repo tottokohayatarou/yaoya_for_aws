@@ -1,5 +1,5 @@
 <?php if(!isset($_SESSION)){ session_start(); }; ?><!-- sessionが開始されていなければ開始する -->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8" />
@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/header.css" />
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"><!-- フォントオーサム -->
 </head>
-<body>
+<body> -->
   <!-- ヘッダー -->
   <div class="head-area">
 
@@ -60,8 +60,8 @@
       }
       ?>
     <div class="header-blank"></div>
-
+<!-- 
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/header.js"></script>
-  </body>
-</html>
+    <script src="js/header.js"></script> -->
+<!--   </body>
+</html> -->
