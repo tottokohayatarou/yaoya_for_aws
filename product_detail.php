@@ -371,7 +371,7 @@
         <!-- 商品スライド -->
         <div class="slide">
 
-          <div class="slider-for" style="margin: 10px;">
+          <div class="slider-for" style="margin: 10px; height:400px ">
             <figure><img src="images/<?= $row['image_name'] ?>"/></figure>
             <figure><img src="images/<?= $row['ga1'] ?>" /></figure>
             <figure><img src="images/<?= $row['ga2'] ?>" /></figure>
@@ -380,7 +380,7 @@
             <figure><img src="images/<?= $row['ga5'] ?>" /></figure>
             <figure><img src="images/<?= $row['ga6'] ?>" /></figure>
           </div>
-          <div class="slider-nav" style="height: 100px;">
+          <div class="slider-nav" style="height: 100px; margin-top: 0px;">
             <figure><img src="images/<?= $row['image_name'] ?>" /></figure>
             <figure><img src="images/<?= $row['ga1'] ?>" /></figure>
             <figure><img src="images/<?= $row['ga2'] ?>" /></figure>
