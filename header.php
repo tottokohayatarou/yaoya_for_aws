@@ -9,7 +9,6 @@
 
   
 @charset "UTF-8";
-@charset "UTF-8";
 
 * {
   box-sizing: border-box;
