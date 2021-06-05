@@ -181,7 +181,7 @@ main {
                 <div class="container cont2">
                   <div class="item1">
                     <a href="product_detail.php?id=<?= $row['id'] ?>">
-                      <img class="course-image" src="images/<?= $row['image_name'] ?>"> </img>
+                      <img class="course-image" src="images/<?= $row['image_name'] ?>" style="height: 200px;> </img>
                     </a>
                   </div>
         

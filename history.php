@@ -182,7 +182,7 @@ main {
             $stm->bindValue(':id',$_SESSION['user']['id'],PDO::PARAM_INT);
             $stm->execute();
             $result = $stm->fetchAll(PDO::FETCH_ASSOC);
-            
+            krsort($result);  //最近購入したものから順に表示するために配列を逆順にソート
             foreach ($result as $row) {
               $sql2 = "
                 select product.id as product_id, name, price, count, image_name
