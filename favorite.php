@@ -186,6 +186,7 @@ main {
                   </div>
         
                   <div class="item2 flex-dir-col">
+                  <br>
                     <a href="product_detail.php?id=<?= $row['id'] ?>" class="product-name border-bottom"><?= $row['name'] ?></a>
                     <p class="">最短翌日出荷</p>
                     
